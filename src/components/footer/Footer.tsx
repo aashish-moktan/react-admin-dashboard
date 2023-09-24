@@ -1,7 +1,12 @@
 import "./footer.scss";
 
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <div className="footer">
+      <span>AdminDashboard</span>
+      <span>@ Copyright Admin Dashboard</span>
+    </div>
+  );
 };
 
 export default Footer;
